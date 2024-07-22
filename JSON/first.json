@@ -1,0 +1,7 @@
+{
+    "name":"Shrivatsa","Surname":"Shetty",
+    "age":22, "is_employee":false, "is_student":true,
+    "projects":null,
+    "marks":[80,85,91,90],
+    "qualities":{"height":167,"weight":58,"skills":["C","Python","html"]}
+}

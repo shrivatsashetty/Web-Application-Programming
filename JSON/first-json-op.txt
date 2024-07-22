@@ -1,0 +1,28 @@
+myjson= `{
+    "name":"Shrivatsa","Surname":"Shetty",
+    "age":22, "is_employee":false, "is_student":true,
+    "projects":null,
+    "marks":[80,85,91,90],
+    "qualities":{"height":167,"weight":58,"skills":["C","Python","html"]}
+}`
+'{\n    "name":"Shrivatsa","Surname":"Shetty",\n    "age":22, "is_employee":false, "is_student":true,\n    "projects":null,\n    "marks":[80,85,91,90],\n    "qualities":{"height":167,"weight":58,"skills":["C","Python","html"]}\n}'
+JSON.parse(myjson)
+{name: 'Shrivatsa', Surname: 'Shetty', age: 22, is_employee: false, is_student: true, …}
+finalobj=JSON.parse(myjson)
+{name: 'Shrivatsa', Surname: 'Shetty', age: 22, is_employee: false, is_student: true, …}
+fnalobj["name"]
+VM962:1 Uncaught ReferenceError: fnalobj is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM962:1
+finalobj["name"]
+'Shrivatsa'
+finalobj["marks"][2]
+91
+finalobj["qualities"]
+{height: 167, weight: 58, skills: Array(3)}
+finalobj["qualities"]["height"]
+167
+finalobj["qualities"]["skills"]
+(3) ['C', 'Python', 'html']
+finalobj["qualities"]["skills"]["2"]
+'html'

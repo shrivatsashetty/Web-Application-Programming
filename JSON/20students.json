@@ -1,0 +1,46 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "John",
+      "age": 18,
+      "gender": "male",
+      "major": "Computer Science",
+      "gpa": 3.5
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "age": 19,
+      "gender": "female",
+      "major": "Psychology",
+      "gpa": 3.2
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "age": 20,
+      "gender": "male",
+      "major": "Business",
+      "gpa": 3.8
+    },
+    {
+      "id": 4,
+      "name": "Samantha",
+      "age": 21,
+      "gender": "female",
+      "major": "Biology",
+      "gpa": 3.6
+    },
+    {
+      "id": 5,
+      "name": "David",
+      "age": 22,
+      "gender": "male",
+      "major": "Engineering",
+      "gpa": 3.9
+    },
+    // ...and so on for 15 more students
+  ]
+}
+
